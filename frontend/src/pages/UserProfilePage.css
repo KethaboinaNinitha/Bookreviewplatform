@@ -1,0 +1,93 @@
+.user-profile {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.user-profile h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.user-profile h2 {
+  font-size: 24px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.review-item {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.review-item p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.review-item strong {
+  color: #007bff;
+}
+
+.profile-form {
+  margin-top: 20px;
+}
+
+.profile-form div {
+  margin-bottom: 10px;
+}
+
+.profile-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.profile-form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.profile-form button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.profile-form button:hover {
+  background-color: #0056b3;
+}
+
+.edit-profile-button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-profile-button:hover {
+  background-color: #218838;
+}
+
+.edit-profile-button:active {
+  background-color: #1e7e34;
+}
